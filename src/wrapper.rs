@@ -140,6 +140,7 @@ impl NetCDFHandle {
             .unwrap_or(JsValue::null())
     }
 
+    // Communication between javascript and rust backend head-scratcher
     #[wasm_bindgen]
     pub fn load_data_for(
         &mut self,
